@@ -8,20 +8,15 @@ body {
 #content {
     background-color:#36454f;
     text-align: center;
-    margin-top: -75px;
-}
-
-#hero {
-    display: grid;
+    margin-top: -25px;
 }
 
 #hero_img {
-    z-index: -2;
     width: 100%;
 }
 
 nav {
-    background-color:navy;
+    background-color:#0f035a;
     display: flex;
     justify-content: space-around;
     align-items: stretch;
@@ -38,11 +33,16 @@ nav a {
     align-items: center;
     justify-content: center;
     width: 100%;
-    
 }
+
 nav a:hover {
     background-image: linear-gradient(to left, transparent 0%, black 40%, black 60%, transparent 100%);
 }
+
+h1, h3 {
+    color: white;
+}
+
 #intro_blocks {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
@@ -52,7 +52,7 @@ nav a:hover {
 #skyrim_intro {
     grid-column: 1;
     grid-row: 1;
-    background-color: navy;
+    background-color: #0f035a;
     border-radius: 5px;
      display: grid;
     grid-template-columns: 250px 1fr;
@@ -61,7 +61,7 @@ nav a:hover {
 #starfield_intro {
     grid-column: 1;
     grid-row: 2;
-    background-color: navy;
+    background-color: #0f035a;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 270px 1fr;
@@ -70,7 +70,7 @@ nav a:hover {
 #fallout4_intro {
     grid-column: 1;
     grid-row: 3;
-    background-color: navy;
+    background-color: #0f035a;
     border-radius: 5px;
      display: grid;
     grid-template-columns: 270px 1fr;
@@ -97,6 +97,7 @@ footer {
     grid-template-rows: auto auto;
     margin-top: 10px;
     background: linear-gradient(to top, black 60%, transparent 100%);
+    padding-bottom: 10px;
 }
 
 #f_logo {
