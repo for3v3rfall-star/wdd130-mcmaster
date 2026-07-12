@@ -121,3 +121,26 @@ footer {
     grid-column: 2;
     grid-row: 2;
 }
+/* Skyrim page */
+
+#gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.gallery_img {
+    width: 30%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.youtuber {
+    margin-bottom: 30px;
+}
+
+#youtubers {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
